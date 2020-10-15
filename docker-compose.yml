@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  api:
+    image: sample-node-docker-app:test1
+    container_name: sample-node-app
+    ports:
+      - "3000:9000"
+    environment:
+      - TEST=Hello World for the third time!
+      - PORT=9000
+
