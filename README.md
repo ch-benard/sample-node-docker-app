@@ -46,4 +46,4 @@ services:
       - PORT=9000
 ```
 
-This work is mainly inspired by [this repo](https://github.com/Dvelezs94/sample-node-docker).
+This work is mainly inspired by [this repo](https://github.com/Dvelezs94/sample-node-docker). I just added the docker-compose way to start the app.
